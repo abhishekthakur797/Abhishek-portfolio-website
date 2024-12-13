@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Portfolio</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/profile-abhishek.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="font-poppins relative text-white scroll-smooth">
+    <nav
+      class="bg-gray-700/50 w-full flex justify-evenly lg:justify-around items-center py-2 fixed top-0 z-50 backdrop-blur-sm"
+    >
+      <a href="#home" class="text-orange-500 font-bold text-xl">
+        &lt;<span class="text-white">Home</span>/&gt;
+      </a>
+      <!--! Navbar for mobile-->
+      <div
+        id="nav-mobile"
+        class="nav-mobile absolute hidden w-screen right-0 top-0 bg-orange-500 z-50 flex-col items-center py-3 gap-4"
+      >
+        <i id="nav-cut" class="fa-solid fa-xmark"></i>
+        <a href="#home" class="hover:text-orange-500 hover:duration-200"
+          >Home</a
+        >
+        <a href="#skill" class="hover:text-orange-500 hover:duration-200"
+          >skill</a
+        >
+        <a href="#projects" class="hover:text-orange-500 hover:duration-200"
+          >Projects</a
+        >
+      </div>
+      <!--! Navbar for Desktop-->
+      <div class="nav-right flex flex-row gap-6">
+        <a
+          class="hidden md:block lg:block"
+          href="#home"
+          class="hover:text-orange-500 hover:duration-200"
+          >Home</a
+        >
+        <a
+          class="hidden md:block lg:block"
+          href="#skill"
+          class="hover:text-orange-500 hover:duration-200"
+          >skill</a
+        >
+        <a
+          class="hidden md:block lg:block"
+          href="#projects"
+          class="hover:text-orange-500 hover:duration-200"
+          >Projects</a
+        >
+
+        <div id="show-menu" class="block md:hidden lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!--! Main-container-->
+    <div
+      class="container mt-auto flex flex-col items-center bg-gradient-to-r from-slate-900 to-slate-700"
+    >
+      <!--! 1. Welcome Section-->
+      <div
+        id="home"
+        class="welcome-section w-screen flex flex-col items-center px-4 md:px-20 lg:px-96 py-10 lg:py-8"
+      >
+        <img
+          class="w-40 lg:w-72 rounded-full py-10"
+          src="img/profile-abhishek.png"
+          alt="Abhishek Profile Picture"
+        />
+        <div class="welcome-section-container flex flex-col gap-4 items-center">
+          <h1 class="text-2xl lg:text-4xl font-bold">Hi, I'm Abhishek 👋</h1>
+          <h2 class="text-2xl font-medium text-orange-500">
+            Software Developer
+          </h2>
+          <p class="text-center">
+            <strong class="font-semibold"
+              >I am a Front-End Web Developer, Graphics Designer, and YouTube
+              Content Manager</strong
+            >
+            with expertise in
+            <strong class="font-semibold"
+              >HTML5, CSS3, JavaScript, Tailwind CSS</strong
+            >, and <strong class="font-semibold">WordPress</strong>, utilizing
+            Elementor and SEO strategies to create user-friendly websites.
+            <br /><br />
+
+            Along with web development, I excel in video editing (<strong
+              class="font-semibold"
+              >DaVinci Resolve, Camtasia</strong
+            >) and graphic design (<strong class="font-semibold"
+              >Adobe Photoshop</strong
+            >), crafting engaging banners, thumbnails, and marketing content. My
+            YouTube management experience covers scripting, SEO optimization,
+            and audience engagement using YouTube Studio. <br /><br />
+          </p>
+
+          <h2 class="text-2xl font-medium text-orange-500">Experience</h2>
+
+          <p class="text-center">
+            <strong class="font-semibold">Indian Hot Deal (2021-2022):</strong>
+            Managed WordPress sites, created videos and graphics, and led a
+            YouTube channel.
+            <br />
+            <strong class="font-semibold">GoSuper11 (2022-2023):</strong>
+            Coordinated app tasks, designed visuals, and enhanced product
+            performance.
+          </p>
+          <hr class="border-t border-white/20 w-full" />
+        </div>
+      </div>
+
+      <!--! Skills Section-->
+      <div id="skill" class="skills flex flex-col items-center px-4 lg:px-40">
+        <h1 class="text-4xl font-bold">Skills</h1>
+        <div
+          class="skills-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 py-6 text-center"
+        >
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-html-96.png"
+              alt="HTML5"
+            />
+            <p class="">HTML5</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-css-96.png"
+              alt="CSS3"
+            />
+            <p class="">CSS3</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-javascript-96.png"
+              alt="JavaScript"
+            />
+            <p class="">JavaScript</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-tailwindcss-96.png"
+              alt="Tailwind CSS"
+            />
+            <p class="">Tailwind CSS</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-bootstrap-96.png"
+              alt="Bootstrap"
+            />
+            <p class="">Bootstrap</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-react-js-96.png"
+              alt="React"
+            />
+            <p class="">React</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-wordpress-96.png"
+              alt="WordPress"
+            />
+            <p class="">WordPress</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-mongo-db-96.png"
+              alt="MongoDB"
+            />
+            <p class="">MongoDB</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img class="h-12 w-12" src="img/icons/Postman.png" alt="Postman" />
+            <p class="">Postman</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-mysql-96.png"
+              alt="MySQL"
+            />
+            <p class="">MySQL</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-git-96.png"
+              alt="Git"
+            />
+            <p class="">Git</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-github-90.png"
+              alt="GitHub"
+            />
+            <p class="">GitHub</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-notion-96.png"
+              alt="Notion"
+            />
+            <p class="">Notion</p>
+          </div>
+
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-photoshop-96.png"
+              alt="Adobe Photoshop"
+            />
+            <p class="">Photoshop</p>
+          </div>
+          <div
+            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+          >
+            <img
+              class="h-12 w-12"
+              src="img/icons/icons8-davinci-resolve-96.png"
+              alt="Adobe Photoshop"
+            />
+            <p class="">Davinci Resolve</p>
+          </div>
+        </div>
+        <hr class="border-t border-white/20 w-full" />
+      </div>
+
+      <!--! My Projects-->
+
+      <div
+        id="projects"
+        class="projects-section py-4 px-20 w-full flex flex-col gap-4 items-center justify-center"
+      >
+        <h1 class="section-title text-4xl font-bold mb-4">Projects</h1>
+        <!--! Projects section -->
+        <div class="projects-wrapper flex flex-col items-center">
+          <div
+            class="coding-projects flex flex-col items-center"
+            id="coding-projects"
+          >
+            <h1 class="projects-subtitle text-3xl font-bold text-orange-500">
+              Coding Projects
+            </h1>
+            <div
+              class="coding-projects-container gap-x-10 gap-y-3 lg:gap-y-6 mt-4 p-4 w-screen px-4 lg:px-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
+            >
+              <div
+                class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-12 flex items-center gap-4 border-2 border-gray-600"
+              >
+                <img
+                  class="w-24 h-24"
+                  src="img/project img/YouTube Clone.png"
+                  alt="Travel Website Banner"
+                />
+                <div class="project-info">
+                  <h1 class="project-title font-bold text-xl">
+                    Travel Website
+                  </h1>
+                  <p class="project-description text-gray-200">
+                    This is a travel website
+                  </p>
+                </div>
+              </div>
+              <div
+                class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-12 flex items-center gap-4 border-2 border-gray-600"
+              >
+                <img
+                  class="w-24 h-24"
+                  src="img/project img/YouTube Clone.png"
+                  alt="Travel Website Banner"
+                />
+                <div class="project-info">
+                  <h1 class="project-title font-bold text-xl">
+                    Travel Website
+                  </h1>
+                  <p class="project-description text-gray-200">
+                    This is a travel website
+                  </p>
+                </div>
+              </div>
+              <div
+                class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-12 flex items-center gap-4 border-2 border-gray-600"
+              >
+                <img
+                  class="w-24 h-24"
+                  src="img/project img/YouTube Clone.png"
+                  alt="Travel Website Banner"
+                />
+                <div class="project-info">
+                  <h1 class="project-title font-bold text-xl">
+                    Travel Website
+                  </h1>
+                  <p class="project-description text-gray-200">
+                    This is a travel website
+                  </p>
+                </div>
+              </div>
+              <div
+                class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-12 flex items-center gap-4 border-2 border-gray-600"
+              >
+                <img
+                  class="w-24 h-24"
+                  src="img/project img/YouTube Clone.png"
+                  alt="Travel Website Banner"
+                />
+                <div class="project-info">
+                  <h1 class="project-title font-bold text-xl">
+                    Travel Website
+                  </h1>
+                  <p class="project-description text-gray-200">
+                    This is a travel website
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--! Banners-->
+
+          <div
+            class="banners-slider px-4 lg:px-44 gap-x-1 lg:gap-x-3 flex flex-col items-center my-4"
+          >
+            <h1 class="text-3xl font-bold text-orange-500 my-2 mb-2">
+              Banners
+            </h1>
+            <div class="banners-container flex items-center gap-x-4">
+              <div class="left-arrow">
+                <i
+                  class="fa-solid fa-arrow-right text-xs lg:text-2xl font-bold bg-gray-700/50 border-2 border-white hover:bg-gray-700 cursor-pointer p-2 lg:p-5 rounded-full"
+                ></i>
+              </div>
+              <div class="banner-content">
+                <img
+                  class="banner-image rounded-lg"
+                  src="img/banners/1_India Upcoming Matches 2023.jpg"
+                  alt="Upcoming Matches 2023 Banner"
+                />
+              </div>
+              <div class="right-arrow">
+                <i
+                  class="fa-solid fa-arrow-left text-xs lg:text-2xl font-bold bg-gray-700/50 border-2 border-white hover:bg-gray-700 cursor-pointer p-2 lg:p-5 rounded-full"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider border-t border-white/20 w-full" />
+      </div>
+
+      <!--! Contact-->
+
+      <div class="contact flex flex-col items-center py-4">
+        <!-- <h1 class="text-4xl font-bold mb-4">Contact us</h1> -->
+        <div
+          class="contact-container flex gap-4 lg:gap-10 justify-center bg-gray-700 hover:bg-gray-800 rounded-full px-8 lg:px-10 py-4 border-2 border-white/50 fixed bottom-5 z-50"
+        >
+          <a href="https://github.com/abhishekthakur797" target="_blank"
+            ><i
+              class="fa-brands fa-linkedin text-2xl lg:text-3xl hover:text-blue-500"
+            ></i
+          ></a>
+          <a href="https://github.com/abhishekthakur797" target="_blank"
+            ><i
+              class="fa-brands fa-github text-2xl lg:text-3xl hover:text-orange-600"
+            ></i
+          ></a>
+          <a href="mailto:officialabhishekthakur@gmail.com" target="_blank"
+            ><i
+              class="fa-solid fa-envelope text-2xl lg:text-3xl hover:text-yellow-400"
+            ></i
+          ></a>
+          <a href="https://x.com/bugsFinder99" target="_blank"
+            ><i
+              class="fa-brands fa-x-twitter text-2xl lg:text-3xl hover:text-blue-500"
+            ></i
+          ></a>
+          <a href="files/Abhishek Thakur 2024.pdf" target="_blank"
+            ><i
+              class="fa-solid fa-file-pdf text-2xl lg:text-3xl hover:text-red-700"
+            ></i
+          ></a>
+          <a href="https://www.youtube.com/@IHDFantasy/featured" target="_blank"
+            ><i
+              class="fa-brands fa-youtube text-2xl lg:text-3xl hover:text-red-500"
+            ></i
+          ></a>
+          <a href="https://indianhotdeal.com/" target="_blank"
+            ><i
+              class="fa-solid fa-globe text-2xl lg:text-3xl hover:text-green-600"
+            ></i
+          ></a>
+        </div>
+      </div>
+      <!--! Footer-->
+      <footer>
+        <div class="footer-container mb-28">
+          <p>&copy; Abhishek Thakur. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/afcdfd8069.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
