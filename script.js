@@ -75,3 +75,15 @@ navLinks.forEach((link) => {
     }
   });
 });
+
+// Function to display the current date and real-time clock
+function updateClock() {
+  const now = new Date();
+  const dateString = now.toLocaleDateString();
+  const timeString = now.toLocaleTimeString();
+  document.getElementById(
+    "clock"
+  ).textContent = `${dateString}   ${timeString}`;
+}
+setInterval(updateClock, 1000);
+updateClock();
