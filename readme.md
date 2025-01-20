@@ -35,7 +35,7 @@ This repository contains the source code for Abhishek's portfolio, showcasing hi
 
 ## Preview
 
-To view the portfolio live, visit the [GitHub Pages link](https://abhishekthakur797.github.io/portfolio/).
+To view the portfolio live, visit the [GitHub Pages link](https://abhishekthakur797.github.io/Abhishek-portfolio-website/).
 
 ---
 
