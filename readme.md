@@ -37,10 +37,6 @@ This repository contains the source code for Abhishek's portfolio, showcasing hi
 
 To view the portfolio live, visit the [GitHub Pages link](https://abhishekthakur797.github.io/portfolio/).
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 For any queries or collaboration opportunities, feel free to contact me at [officialabhishekthakur@gmail.com](mailto:officialabhishekthakur@gmail.com).
