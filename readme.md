@@ -16,15 +16,6 @@ This repository contains the source code for Abhishek's portfolio, showcasing hi
 - **Projects Showcase**: Displays coding projects with descriptions and links to live demos.
 - **Contact Section**: Quick links to social media profiles and downloadable resume.
 
-## Sections
-
-### 1. Home
-
-### 2. Skills
-
-### 3. Projects
-
-### 4. Contact
 
 ## Setup Instructions
 
