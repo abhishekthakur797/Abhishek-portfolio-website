@@ -17,7 +17,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="font-poppins relative text-white scroll-smooth">
+  <body
+    class="font-poppins relative text-white scroll-smooth overflow-x-hidden"
+  >
     <nav
       class="bg-gray-700/50 w-full flex justify-evenly lg:justify-around items-center py-2 fixed top-0 z-50 backdrop-blur-sm"
     >
@@ -27,7 +29,7 @@
       <!--! Navbar for mobile-->
       <div
         id="nav-mobile"
-        class="nav-mobile absolute hidden w-screen right-0 top-0 bg-gray-700 z-50 flex-col items-center py-3 gap-4"
+        class="nav-mobile absolute hidden w-full right-0 top-0 bg-gray-700 z-50 flex-col items-center py-3 gap-4"
       >
         <i
           id="nav-cut"
@@ -68,12 +70,12 @@
     </nav>
     <!--! Main-container-->
     <div
-      class="container mt-auto flex flex-col items-center bg-gradient-to-r from-slate-900 to-slate-700"
+      class="container flex flex-col items-center bg-gradient-to-r from-slate-900 to-slate-700"
     >
       <!--! 1. Welcome Section-->
       <div
         id="home"
-        class="welcome-section w-screen flex flex-col items-center px-4 md:px-20 lg:px-96 py-10 lg:py-8"
+        class="welcome-section w-full flex flex-col items-center px-4 md:px-20 lg:px-96 py-10 lg:py-8 m-0"
       >
         <img
           class="w-40 lg:w-72 rounded-full py-10"
@@ -312,7 +314,7 @@
               Coding Projects
             </h1>
             <div
-              class="coding-projects-container gap-x-10 gap-y-3 lg:gap-y-6 mt-4 p-4 w-screen px-4 lg:px-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
+              class="coding-projects-container gap-x-10 gap-y-3 lg:gap-y-6 mt-4 w-full px-4 lg:px-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
             >
               <!--! project 1-->
               <a
