@@ -1,0 +1,57 @@
+/* Custom styles to prevent horizontal overflow and ensure proper layout */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure all images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Font family fallback */
+.font-poppins {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Ensure containers don't exceed viewport width */
+.w-full {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Additional responsive utilities */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+}
+
+/* Ensure banner images are contained properly */
+.banner-image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Fix for contact container on small screens */
+.contact-container {
+  max-width: calc(100vw - 2rem);
+  left: 50%;
+  transform: translateX(-50%);
+}

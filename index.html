@@ -18,10 +18,10 @@
   </head>
 
   <body
-    class="font-poppins relative text-white scroll-smooth overflow-x-hidden"
+    class="font-poppins relative text-white scroll-smooth overflow-x-hidden min-h-screen w-full"
   >
     <nav
-      class="bg-gray-700/50 w-full flex justify-evenly lg:justify-around items-center py-2 fixed top-0 z-50 backdrop-blur-sm"
+      class="bg-gray-700/50 w-full flex justify-between lg:justify-around items-center py-2 px-4 fixed top-0 z-50 backdrop-blur-sm"
     >
       <a href="#home" class="text-orange-500 font-bold text-xl">
         &lt;<span class="text-white">Home</span>/&gt;
@@ -70,19 +70,21 @@
     </nav>
     <!--! Main-container-->
     <div
-      class="container flex flex-col items-center bg-gradient-to-r from-slate-900 to-slate-700"
+      class="w-full min-h-screen flex flex-col items-center bg-gradient-to-r from-slate-900 to-slate-700"
     >
       <!--! 1. Welcome Section-->
       <div
         id="home"
-        class="welcome-section w-full flex flex-col items-center px-4 md:px-20 lg:px-96 py-10 lg:py-8 m-0"
+        class="welcome-section w-full flex flex-col items-center px-4 md:px-8 lg:px-20 py-10 lg:py-8 m-0 max-w-6xl mx-auto"
       >
         <img
           class="w-40 lg:w-72 rounded-full py-10"
           src="img/profile-abhishek.png"
           alt="Abhishek Profile Picture"
         />
-        <div class="welcome-section-container flex flex-col gap-4 items-center">
+        <div
+          class="welcome-section-container flex flex-col gap-4 items-center max-w-4xl"
+        >
           <h1 class="text-2xl lg:text-4xl font-bold">Hi, I'm Abhishek 👋</h1>
           <h2 class="text-2xl font-medium text-orange-500">
             Software Developer
@@ -129,13 +131,16 @@
       </div>
 
       <!--! Skills Section-->
-      <div id="skill" class="skills flex flex-col items-center px-4 lg:px-40">
+      <div
+        id="skill"
+        class="skills flex flex-col items-center px-4 lg:px-8 w-full max-w-6xl mx-auto"
+      >
         <h1 class="text-4xl font-bold">Skills</h1>
         <div
-          class="skills-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 py-6 text-center"
+          class="skills-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 py-6 text-center w-full"
         >
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -146,7 +151,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -157,7 +162,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -168,7 +173,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -179,7 +184,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -190,7 +195,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -201,7 +206,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -212,7 +217,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -223,14 +228,14 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img class="h-12 w-12" src="img/icons/Postman.png" alt="Postman" />
             <p class="">Postman</p>
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -241,7 +246,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -252,7 +257,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -263,7 +268,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -274,7 +279,7 @@
           </div>
 
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -284,7 +289,7 @@
             <p class="">Photoshop</p>
           </div>
           <div
-            class="skills-content bg-gray-700/50 py-3 px-32 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
+            class="skills-content bg-gray-700/50 py-3 px-6 lg:px-12 rounded-lg flex flex-col items-center gap-2 hover:bg-gray-700"
           >
             <img
               class="h-12 w-12"
@@ -301,39 +306,42 @@
 
       <div
         id="projects"
-        class="projects-section py-4 px-20 w-full flex flex-col gap-4 items-center justify-center"
+        class="projects-section py-4 px-4 lg:px-8 w-full flex flex-col gap-4 items-center justify-center max-w-6xl mx-auto"
       >
         <h1 class="section-title text-4xl font-bold mb-4">Projects</h1>
         <!--! Projects section -->
-        <div class="projects-wrapper flex flex-col items-center">
+        <div class="projects-wrapper flex flex-col items-center w-full">
           <div
-            class="coding-projects flex flex-col items-center"
+            class="coding-projects flex flex-col items-center w-full"
             id="coding-projects"
           >
             <h1 class="projects-subtitle text-3xl font-bold text-orange-500">
               Coding Projects
             </h1>
             <div
-              class="coding-projects-container gap-x-10 gap-y-3 lg:gap-y-6 mt-4 w-full px-4 lg:px-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
+              class="coding-projects-container gap-x-6 gap-y-3 lg:gap-y-6 mt-4 w-full px-4 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-4xl mx-auto"
             >
               <!--! project 1-->
               <a
                 href="https://abhishekthakur797.github.io/30-days-30-javascript-project/"
                 target="_blank"
+                class="w-full"
               >
                 <div
-                  class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-12 flex items-center gap-4 border-2 border-gray-600"
+                  class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-6 lg:px-8 flex items-center gap-4 border-2 border-gray-600 w-full"
                 >
                   <img
-                    class="w-24 h-24 rounded-lg"
+                    class="w-16 h-16 lg:w-24 lg:h-24 rounded-lg flex-shrink-0"
                     src="img/icons/icons8-javascript-96.png"
                     alt="Travel Website Banner"
                   />
-                  <div class="project-info">
-                    <h1 class="project-title font-bold text-xl">
+                  <div class="project-info flex-1 min-w-0">
+                    <h1 class="project-title font-bold text-lg lg:text-xl">
                       30 Days 30 JavaScript Project
                     </h1>
-                    <p class="project-description text-gray-200">
+                    <p
+                      class="project-description text-gray-200 text-sm lg:text-base"
+                    >
                       Build 30 interactive web apps to master JavaScript.
                     </p>
                   </div>
@@ -343,27 +351,30 @@
               <a
                 href="https://abhishekthakur797.github.io/youtube-clone/src/index.html"
                 target="_blank"
+                class="w-full"
               >
                 <div
-                  class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-12 flex items-center gap-4 border-2 border-gray-600"
+                  class="project-card bg-gray-700/50 hover:bg-gray-700 rounded-lg py-6 px-6 lg:px-8 flex items-center gap-4 border-2 border-gray-600 w-full"
                 >
                   <img
-                    class="w-24 h-24 rounded-lg"
+                    class="w-16 h-16 lg:w-24 lg:h-24 rounded-lg flex-shrink-0"
                     src="img/project img/YouTube Clone logo.jpg"
                     alt="Travel Website Banner"
                   />
-                  <div class="project-info">
-                    <h1 class="project-title font-bold text-xl">
+                  <div class="project-info flex-1 min-w-0">
+                    <h1 class="project-title font-bold text-lg lg:text-xl">
                       YouTube Clone
                     </h1>
-                    <p class="project-description text-gray-200">
+                    <p
+                      class="project-description text-gray-200 text-sm lg:text-base"
+                    >
                       Master JavaScript with This Interactive Web App.
                     </p>
                   </div>
                 </div>
               </a>
             </div>
-            <h1 class="text-center">
+            <h1 class="text-center mt-4">
               Exciting Live Projects Coming Soon - Stay Tuned for More!
             </h1>
           </div>
@@ -371,25 +382,27 @@
           <!--! Banners-->
 
           <div
-            class="banners-slider px-4 lg:px-44 gap-x-1 lg:gap-x-3 flex flex-col items-center my-4"
+            class="banners-slider px-4 lg:px-8 flex flex-col items-center my-4 w-full max-w-4xl mx-auto"
           >
             <h1 class="text-3xl font-bold text-orange-500 my-2 mb-2">
               Banners
             </h1>
-            <div class="banners-container flex items-center gap-x-4">
-              <div class="left-arrow">
+            <div
+              class="banners-container flex items-center gap-x-2 lg:gap-x-4 w-full justify-center"
+            >
+              <div class="left-arrow flex-shrink-0">
                 <i
                   class="fa-solid fa-arrow-right text-xs lg:text-2xl font-bold bg-gray-700/50 border-2 border-white hover:bg-gray-700 cursor-pointer p-2 lg:p-5 rounded-full"
                 ></i>
               </div>
-              <div class="banner-content">
+              <div class="banner-content flex-1 max-w-2xl">
                 <img
-                  class="banner-image rounded-lg"
+                  class="banner-image rounded-lg w-full h-auto object-contain"
                   src="img/banners/1_India Upcoming Matches 2023.jpg"
                   alt="Upcoming Matches 2023 Banner"
                 />
               </div>
-              <div class="right-arrow">
+              <div class="right-arrow flex-shrink-0">
                 <i
                   class="fa-solid fa-arrow-left text-xs lg:text-2xl font-bold bg-gray-700/50 border-2 border-white hover:bg-gray-700 cursor-pointer p-2 lg:p-5 rounded-full"
                 ></i>
@@ -402,51 +415,51 @@
 
       <!--! Contact-->
 
-      <div class="contact flex flex-col items-center py-4">
+      <div class="contact flex flex-col items-center py-4 w-full">
         <!-- <h1 class="text-4xl font-bold mb-4">Contact us</h1> -->
         <div
-          class="contact-container flex gap-4 lg:gap-10 justify-center bg-gray-700 hover:bg-gray-800 rounded-full px-8 lg:px-10 py-4 border-2 border-white/50 fixed bottom-5 z-50"
+          class="contact-container flex flex-wrap gap-2 lg:gap-4 justify-center bg-gray-700 hover:bg-gray-800 rounded-full px-4 lg:px-8 py-4 border-2 border-white/50 fixed bottom-5 z-50 max-w-md"
         >
           <a href="https://github.com/abhishekthakur797" target="_blank"
             ><i
-              class="fa-brands fa-linkedin text-2xl lg:text-3xl hover:text-blue-500"
+              class="fa-brands fa-linkedin text-xl lg:text-2xl hover:text-blue-500"
             ></i
           ></a>
           <a href="https://github.com/abhishekthakur797" target="_blank"
             ><i
-              class="fa-brands fa-github text-2xl lg:text-3xl hover:text-orange-600"
+              class="fa-brands fa-github text-xl lg:text-2xl hover:text-orange-600"
             ></i
           ></a>
           <a href="mailto:officialabhishekthakur@gmail.com" target="_blank"
             ><i
-              class="fa-solid fa-envelope text-2xl lg:text-3xl hover:text-yellow-400"
+              class="fa-solid fa-envelope text-xl lg:text-2xl hover:text-yellow-400"
             ></i
           ></a>
           <a href="https://x.com/bugsFinder99" target="_blank"
             ><i
-              class="fa-brands fa-x-twitter text-2xl lg:text-3xl hover:text-blue-500"
+              class="fa-brands fa-x-twitter text-xl lg:text-2xl hover:text-blue-500"
             ></i
           ></a>
           <a href="img/files/Abhishek_Thakur_Resume.pdf" target="_blank"
             ><i
-              class="fa-solid fa-file-pdf text-2xl lg:text-3xl hover:text-red-700"
+              class="fa-solid fa-file-pdf text-xl lg:text-2xl hover:text-red-700"
             ></i
           ></a>
           <a href="https://www.youtube.com/@IHDFantasy/featured" target="_blank"
             ><i
-              class="fa-brands fa-youtube text-2xl lg:text-3xl hover:text-red-500"
+              class="fa-brands fa-youtube text-xl lg:text-2xl hover:text-red-500"
             ></i
           ></a>
           <a href="https://indianhotdeal.com/" target="_blank"
             ><i
-              class="fa-solid fa-globe text-2xl lg:text-3xl hover:text-green-600"
+              class="fa-solid fa-globe text-xl lg:text-2xl hover:text-green-600"
             ></i
           ></a>
         </div>
       </div>
       <!--! Footer-->
-      <footer>
-        <div class="footer-container mb-28">
+      <footer class="w-full">
+        <div class="footer-container mb-28 text-center">
           <p>&copy; Abhishek Thakur. All rights reserved.</p>
         </div>
       </footer>
